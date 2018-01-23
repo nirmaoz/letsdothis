@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha --timeout 15000 *.test.js",
-    "prepublish": "npm test"
+    "prepublishOnly": "npm test"
   },
   "author": "Nir Maoz",
   "license": "MIT",
