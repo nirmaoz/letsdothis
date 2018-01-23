@@ -1,0 +1,16 @@
+{
+  "name": "letsdothis",
+  "version": "0.2.1",
+  "description": "letsdothis pipes a series of promises.",
+  "main": "letsdothis.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 *.test.js",
+    "prepublish": "npm test"
+  },
+  "author": "Nir Maoz",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^22.1.0",
+    "mocha": "^5.0.0"
+  }
+}
