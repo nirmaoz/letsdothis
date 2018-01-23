@@ -1,6 +1,6 @@
 {
   "name": "letsdothis",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "letsdothis pipes a series of promises.",
   "main": "letsdothis.js",
   "repository": {
@@ -16,5 +16,6 @@
   "devDependencies": {
     "expect": "^22.1.0",
     "mocha": "^5.0.0"
-  }
+  },
+  "keywords": ["pipe","promise","promises","pipe promises","execute promises in order"]
 }
