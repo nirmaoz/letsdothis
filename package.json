@@ -1,8 +1,12 @@
 {
   "name": "letsdothis",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "letsdothis pipes a series of promises.",
   "main": "letsdothis.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/nirmaoz/letsdothis.git"
+  },
   "scripts": {
     "test": "mocha --timeout 15000 *.test.js",
     "prepublish": "npm test"
