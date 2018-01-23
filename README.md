@@ -1,5 +1,7 @@
 # letsdothis [![NPM version](https://badge.fury.io/js/letsdothis.svg)](https://npmjs.org/package/letsdothis) [![Build Status](https://travis-ci.org/Nir%20Maoz/letsdothis.svg?branch=master)](https://travis-ci.org/Nir%20Maoz/letsdothis)
 
+[https://github.com/nirmaoz/letsdothis](https://github.com/nirmaoz/letsdothis)
+
 > letsdothis pipes a series of promises.
 
 ## Installation
@@ -25,4 +27,4 @@ letsdothis(0, [addOne, addOne, addOne, addOne, addOne]).then((result) => {
 
 ## License
 
-MIT © [Nir Maoz](https://www.facebook.com/maoznir)
+MIT © [Nir Maoz](https://github.com/nirmaoz/letsdothis)
