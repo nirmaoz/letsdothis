@@ -27,7 +27,10 @@ letsdothis(0, [addOne, addOne, addOne, addOne])
 ```
 
 ## API
-** letsdothis(input, Array<functions->promise>) -> promise **
+**letsdothis(input, Array<functions->promise>) -> promise**
+
+## Tests
+**Tested with unit tests using** [Mocha](https://www.npmjs.com/package/mocha) and [Expect](https://www.npmjs.com/package/expect)
 
 ## License
 
