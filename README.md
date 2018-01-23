@@ -14,19 +14,10 @@ $ npm install --save letsdothis
 
 const letsdothis = require('letsdothis');
 
-//addOne returns a promise that resolves to input+1.
-let addOne = ((a) => {
-    return new Promise((resolve, reject) => {
-        try{
-            return resolve(a+1);
-        }
-        catch(e){
-            return reject();
-        }
-    });
-});
-
-//will addOne() five times and print 5 to console
+/**
+ * addOne returns a promise that resolves to input+1.
+ * will addOne() five times and print 5 to console
+ */
 letsdothis(0, [addOne, addOne, addOne, addOne, addOne]).then((result) => {
     console.log(result);
 });
