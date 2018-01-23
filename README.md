@@ -16,17 +16,18 @@ $ npm install --save letsdothis
 
 const letsdothis = require('letsdothis');
 
-/**
- * Pipes input through a list of promises in given order.
- * @param {*} input - input of first function.
- * @param {*} promises list of function, each function must have one parameter and return a promise.
- */
-letsdothis(0, [addOne, addOne, addOne, addOne, addOne]).then((result) => {
-    // addOne returns a promise that resolves to input+1.
-    // will addOne() five times and print 5 to console
-    console.log(result);
-});
+//input of first function = 0
+letsdothis(0, [addOne, addOne, addOne, addOne])
+    .then((result) => {
+        console.log(result); //4
+    })
+    .catch(e){
+        console.error(e);
+    };
 ```
+
+## API
+** letsdothis(input, Array<functions->promise>) -> promise **
 
 ## License
 
