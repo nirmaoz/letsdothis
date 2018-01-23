@@ -1,4 +1,9 @@
-module.exports = (input, promises) => {
+/**
+ * Pipes input through a list of promises in given order.
+ * @param {*} input - input of first function.
+ * @param {*} promises list of function, each function must have one parameter and return a promise.
+ */
+module.exports = (input, promises) => {    
     if (!promises || !Array.isArray(promises) || !promises.length) {
         return new Promise((resolve, reject) => {
             try {

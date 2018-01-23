@@ -1,6 +1,6 @@
 {
   "name": "letsdothis",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "letsdothis pipes a series of promises.",
   "main": "letsdothis.js",
   "repository": {

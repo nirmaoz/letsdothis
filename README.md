@@ -17,10 +17,13 @@ $ npm install --save letsdothis
 const letsdothis = require('letsdothis');
 
 /**
- * addOne returns a promise that resolves to input+1.
- * will addOne() five times and print 5 to console
+ * Pipes input through a list of promises in given order.
+ * @param {*} input - input of first function.
+ * @param {*} promises list of function, each function must have one parameter and return a promise.
  */
 letsdothis(0, [addOne, addOne, addOne, addOne, addOne]).then((result) => {
+    // addOne returns a promise that resolves to input+1.
+    // will addOne() five times and print 5 to console
     console.log(result);
 });
 ```
