@@ -26,8 +26,6 @@ f(0).then((result) => {
 ## API
 
 **letsdothis** (**...functions** ) &rightarrow; **function** ( **input** ) &rightarrow; **promise**
-Version 1.1.0 update - list of functions can be mixed:
-functions that return a promise and functions that return a value.
 
 
 ## Tests
