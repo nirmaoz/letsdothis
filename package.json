@@ -1,14 +1,14 @@
 {
   "name": "letsdothis",
-  "version": "1.0.1",
-  "description": "letsdothis pipes a series of promises.",
+  "version": "1.1.0",
+  "description": "letsdothis pipes a series of promise returning functions.",
   "main": "letsdothis.js",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/nirmaoz/letsdothis.git"
   },
   "scripts": {
-    "test": "mocha --timeout 15000 *.test.js",
+    "test": "mocha *.test.js",
     "prepublishOnly": "npm test"
   },
   "author": "Nir Maoz",
